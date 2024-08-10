@@ -18,9 +18,9 @@ driver.get("https://www.facebook.com/")
 login_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.NAME, 'login')))
 
 username_field = driver.find_element(By.XPATH, '//*[@id="email"]')
-username_field.send_keys("77847900")
+username_field.send_keys("******")
 password_field = driver.find_element(By.XPATH, '//*[@id="pass"]')
-password_field.send_keys("ranjungyeshi11")
+password_field.send_keys("*****")
 login_button.click()
 driver.maximize_window()
 
